@@ -4,6 +4,7 @@ Overview of the ATOM monitoring framework (installation, components, and documen
 ## Introduction
 Reducing the energy consumption is a leading design constraint of current and future HPC systems. Aside from investing into energy-efficient hardware, optimizing applications is key to substantially reduce the energy consumption of HPC cluster. Software developers, however, are usually in the dark when it gets to energy consumption of their applications; HPC clusters rarely provide capabilities to monitor energy consumption on a fine granular level. Predicting the energy consumption of specific applications is even more difficult when the allocated hardware resources vary at each execution. In order to lower the hurdle of energy-aware development, we present ATOM---a light-weight neAr-real Time mOnitoring fraMework.
 
+
 ## Features
 - Fundamental set of diverse plugins (from network monitoring over CPU performance to embedded system monitoring)
 - Offers stable update rates for individual plugins of up to 20ms
@@ -11,6 +12,7 @@ Reducing the energy consumption is a leading design constraint of current and fu
 - Each agent can be configured individually to report system-specific metric data
 - Sophisticated RESTful service to allow data exchange: [API](https://excess-project.github.io/monitoring-server)
 - Framework can be used stand-alone, in combination with the HPC resource manager TORQUE, or linked to the runtime system StarPU 
+
 
 ## Plugins
 - Network monitoring: [infiniband](https://github.com/excess-project/monitoring-agent/blob/master/src/plugins/c/infiniband/README.md)
@@ -24,4 +26,15 @@ Reducing the energy consumption is a leading design constraint of current and fu
 - CPU temperature data: [sensors](https://github.com/excess-project/monitoring-agent/blob/master/src/plugins/c/sensors/README.md)
 
 For a more detailed introduction to plugins, please read our [introductory page](https://github.com/excess-project/monitoring-agent/blob/master/src/plugins/README.md).
+
+
+## Get Started
+
+
+
+## RESTful API
+The API can be used to send and retrieve metric data to the monitoring database through the monitoring server. We have compiled a set of resources to get you up to speed:
+
+- HTML-based [documentation](https://excess-project.github.io/monitoring-server)
+- Sample API [clients](https://github.com/excess-project/monitoring-api) written in C and Python
 
