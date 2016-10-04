@@ -13,12 +13,12 @@ Reducing the energy consumption is a leading design constraint of current and fu
 - Framework can be used stand-alone, in combination with the HPC resource manager TORQUE, or linked to the runtime system StarPU 
 
 ## Plugins
-- Network monitoring: [infiniband](github/monitoring-agent/src/c/infiniband/README.md)
-- Memory usage: [meminfo](https://github.com/excess-project/monitoring-agent/src/c/meminfo/README.md)
-- Embedded system support: [movidius](c/movidius_arduino)
-- Virtual memory statistics: [vmstat](c/vmstat/README.md)
-- GPU support: [Nvidia GPUs](c/nvidia/README.md)
-- Standard performance metrics: [PAPI-C](c/papi/README.md)
-- Power and energy monitoring: [RAPL](c/rapl/README.md)
-- CPU temperature data: [sensors](c/sensors/README.md)
+- Network monitoring: [infiniband](github/monitoring-agent/master/src/plugins/c/infiniband/README.md)
+- Memory usage: [meminfo](github/monitoring-agent/master/src/plugins/c/meminfo/README.md)
+- Embedded system support: [movidius](github/monitoring-agent/master/src/plugins/c/movidius_arduino)
+- Virtual memory statistics: [vmstat](github/monitoring-agent/master/src/plugins/c/vmstat/README.md)
+- GPU support: [Nvidia GPUs](github/monitoring-agent/master/src/plugins/c/nvidia/README.md)
+- Standard performance metrics: [PAPI-C](github/monitoring-agent/master/src/plugins/c/papi/README.md)
+- Power and energy monitoring: [RAPL](github/monitoring-agent/master/src/plugins/c/rapl/README.md)
+- CPU temperature data: [sensors](github/monitoring-agent/master/src/plugins/c/sensors/README.md)
 
