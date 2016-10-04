@@ -15,7 +15,8 @@ Reducing the energy consumption is a leading design constraint of current and fu
 ## Plugins
 - Network monitoring: [infiniband](https://github.com/excess-project/monitoring-agent/blob/master/src/plugins/c/infiniband/README.md)
 - Memory usage: [meminfo](https://github.com/excess-project/monitoring-agent/blob/master/src/plugins/c/meminfo/README.md)
-- Embedded system support: [movidius](https://github.com/excess-projectgithub/monitoring-agent/blob/master/src/plugins/c/movidius_arduino)
+- Embedded system support (Movidius): [movidius](https://github.com/excess-projectgithub/monitoring-agent/blob/master/src/plugins/c/movidius_arduino)
+- Embedded system support (ACME): [acme](https://github.com/excess-projectgithub/monitoring-agent/blob/master/src/plugins/c/acme)
 - Virtual memory statistics: [vmstat](https://github.com/excess-projectgithub/monitoring-agent/blob/master/src/plugins/c/vmstat/README.md)
 - GPU support: [Nvidia GPUs](https://github.com/excess-projectgithub/monitoring-agent/blob/master/src/plugins/c/nvidia/README.md)
 - Standard performance metrics: [PAPI-C](https://github.com/excess-projectgithub/monitoring-agent/blob/master/src/plugins/c/papi/README.md)
