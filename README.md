@@ -29,7 +29,14 @@ For a more detailed introduction to plugins, please read our [introductory page]
 
 
 ## Get Started
-TODO (Dennis)
+Each component of the monitoring framework comes with its own setup and start scripts. Still, we also offer a convenient installation of a small testbed composed of three virtual machines (one server, two workers) by exploiting Vagrant and Ansible. For more information, please refer to our [README](https://github.com/excess-project/monitoring-setup-ansible/blob/master/README.md). If you should have all dependencies installed, a simple
+
+```
+git clone https://github.com/excess-project/monitoring-setup-ansible.git
+cd monitoring-setup-ansible
+vagrant up
+```
+starts the setup process.
 
 
 ## RESTful API
